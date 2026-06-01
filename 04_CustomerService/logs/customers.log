@@ -1,0 +1,56 @@
+2026-06-01T16:20:58.859+05:30  INFO 8964 --- [04_CustomerService] [restartedMain] com.msedcl.main.Application              : Starting Application using Java 25.0.1 with PID 8964 (C:\Training\SpringBoot\04_CustomerService\target\classes started by student17 in C:\Training\SpringBoot\04_CustomerService)
+2026-06-01T16:20:58.860+05:30  INFO 8964 --- [04_CustomerService] [restartedMain] com.msedcl.main.Application              : No active profile set, falling back to 1 default profile: "default"
+2026-06-01T16:20:59.062+05:30  INFO 8964 --- [04_CustomerService] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-01T16:21:04.878+05:30  INFO 11344 --- [04_CustomerService] [restartedMain] com.msedcl.main.Application              : Starting Application using Java 25.0.1 with PID 11344 (C:\Training\SpringBoot\04_CustomerService\target\classes started by student17 in C:\Training\SpringBoot\04_CustomerService)
+2026-06-01T16:21:04.881+05:30  INFO 11344 --- [04_CustomerService] [restartedMain] com.msedcl.main.Application              : No active profile set, falling back to 1 default profile: "default"
+2026-06-01T16:21:04.948+05:30  INFO 11344 --- [04_CustomerService] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-06-01T16:21:04.948+05:30  INFO 11344 --- [04_CustomerService] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-06-01T16:21:05.634+05:30  INFO 11344 --- [04_CustomerService] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-01T16:21:05.703+05:30  INFO 11344 --- [04_CustomerService] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 59 ms. Found 1 JPA repository interface.
+2026-06-01T16:21:06.252+05:30  INFO 11344 --- [04_CustomerService] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-06-01T16:21:06.268+05:30  INFO 11344 --- [04_CustomerService] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-06-01T16:21:06.269+05:30  INFO 11344 --- [04_CustomerService] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-06-01T16:21:06.318+05:30  INFO 11344 --- [04_CustomerService] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1369 ms
+2026-06-01T16:21:06.470+05:30  INFO 11344 --- [04_CustomerService] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-06-01T16:21:06.904+05:30  INFO 11344 --- [04_CustomerService] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@64c4762f
+2026-06-01T16:21:06.907+05:30  INFO 11344 --- [04_CustomerService] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-06-01T16:21:06.940+05:30  INFO 11344 --- [04_CustomerService] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-06-01T16:21:06.999+05:30  INFO 11344 --- [04_CustomerService] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.12.Final
+2026-06-01T16:21:07.544+05:30  INFO 11344 --- [04_CustomerService] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-01T16:21:07.659+05:30  INFO 11344 --- [04_CustomerService] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/customer_db]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.45
+	Default catalog/schema: customer_db/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-01T16:21:08.540+05:30  INFO 11344 --- [04_CustomerService] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-01T16:21:08.550+05:30  INFO 11344 --- [04_CustomerService] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-01T16:21:08.639+05:30  INFO 11344 --- [04_CustomerService] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-06-01T16:21:08.923+05:30  WARN 11344 --- [04_CustomerService] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-01T16:21:09.267+05:30  INFO 11344 --- [04_CustomerService] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-06-01T16:21:09.273+05:30  INFO 11344 --- [04_CustomerService] [restartedMain] com.msedcl.main.Application              : Started Application in 4.811 seconds (process running for 5.561)
+2026-06-01T16:42:40.591+05:30  INFO 11344 --- [04_CustomerService] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-06-01T16:42:40.592+05:30  INFO 11344 --- [04_CustomerService] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-06-01T16:42:40.593+05:30  INFO 11344 --- [04_CustomerService] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-06-01T16:42:40.645+05:30  INFO 11344 --- [04_CustomerService] [http-nio-8080-exec-2] c.m.m.c.controller.CustomerController    : Request recieved to retrieve all customers
+2026-06-01T16:42:40.863+05:30  INFO 11344 --- [04_CustomerService] [http-nio-8080-exec-2] c.m.m.c.controller.CustomerController    : All customers retrieved successfully.
+2026-06-01T16:45:56.706+05:30  INFO 11344 --- [04_CustomerService] [http-nio-8080-exec-5] c.m.m.c.controller.CustomerController    : Getting customer By Id..2
+2026-06-01T16:45:56.960+05:30  INFO 11344 --- [04_CustomerService] [http-nio-8080-exec-5] c.m.m.c.controller.CustomerController    : find response generated
+2026-06-01T16:45:56.961+05:30  INFO 11344 --- [04_CustomerService] [http-nio-8080-exec-5] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=2, name=Seema, email=seema@gmail.com, mobileNumber=987654321)
+2026-06-01T16:48:22.723+05:30  WARN 11344 --- [04_CustomerService] [http-nio-8080-exec-8] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'customer': Failed to convert value of type 'java.lang.String' to required type 'int'; For input string: "customer"]
+2026-06-01T16:49:57.740+05:30  WARN 11344 --- [04_CustomerService] [http-nio-8080-exec-10] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'customer': Failed to convert value of type 'java.lang.String' to required type 'int'; For input string: "customer"]
+2026-06-01T16:50:59.938+05:30  INFO 11344 --- [04_CustomerService] [http-nio-8080-exec-2] c.m.m.c.controller.CustomerController    : Request received to add new customer
+2026-06-01T16:50:59.939+05:30  INFO 11344 --- [04_CustomerService] [http-nio-8080-exec-2] c.m.m.c.controller.CustomerController    : CustomerRequestDTO(name=Snehal, email=snehal@zoho.com, mobileNumber=8779473639)
+2026-06-01T16:51:00.053+05:30  INFO 11344 --- [04_CustomerService] [http-nio-8080-exec-2] c.m.m.c.controller.CustomerController    : New customer added successfully.
+2026-06-01T16:51:00.053+05:30  INFO 11344 --- [04_CustomerService] [http-nio-8080-exec-2] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=5, name=Snehal, email=snehal@zoho.com, mobileNumber=8779473639)
+2026-06-01T16:51:49.671+05:30  INFO 11344 --- [04_CustomerService] [http-nio-8080-exec-3] c.m.m.c.controller.CustomerController    : Request recieved to retrieve all customers
+2026-06-01T16:51:49.679+05:30  INFO 11344 --- [04_CustomerService] [http-nio-8080-exec-3] c.m.m.c.controller.CustomerController    : All customers retrieved successfully.
+2026-06-01T16:53:19.064+05:30  INFO 11344 --- [04_CustomerService] [http-nio-8080-exec-6] c.m.m.c.controller.CustomerController    : Getting customer By Email..aditi@boho
+2026-06-01T16:53:19.072+05:30  INFO 11344 --- [04_CustomerService] [http-nio-8080-exec-6] c.m.m.c.controller.CustomerController    : find response generated
+2026-06-01T16:53:19.072+05:30  INFO 11344 --- [04_CustomerService] [http-nio-8080-exec-6] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=4, name=Aditi Jog, email=aditi@boho, mobileNumber=9852596323)
